@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tvRenameEpisodes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tvRenameEpisodes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 372</value>
+  </data>
+  <data name="tvRenameEpisodes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tvRenameEpisodes.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tvRenameEpisodes.Text" xml:space="preserve">
+    <value>rename selected episodes</value>
+  </data>
+  <data name="&gt;&gt;tvRenameEpisodes.Name" xml:space="preserve">
+    <value>tvRenameEpisodes</value>
+  </data>
+  <data name="&gt;&gt;tvRenameEpisodes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tvRenameEpisodes.Parent" xml:space="preserve">
+    <value>tabSeries</value>
+  </data>
+  <data name="&gt;&gt;tvRenameEpisodes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tvSelNone.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="tvSelNone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 372</value>
+  </data>
+  <data name="tvSelNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="tvSelNone.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tvSelNone.Text" xml:space="preserve">
+    <value>select none</value>
+  </data>
+  <data name="&gt;&gt;tvSelNone.Name" xml:space="preserve">
+    <value>tvSelNone</value>
+  </data>
+  <data name="&gt;&gt;tvSelNone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tvSelNone.Parent" xml:space="preserve">
+    <value>tabSeries</value>
+  </data>
+  <data name="&gt;&gt;tvSelNone.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tvSelAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="tvSelAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 372</value>
+  </data>
+  <data name="tvSelAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="tvSelAll.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tvSelAll.Text" xml:space="preserve">
+    <value>select all</value>
+  </data>
+  <data name="&gt;&gt;tvSelAll.Name" xml:space="preserve">
+    <value>tvSelAll</value>
+  </data>
+  <data name="&gt;&gt;tvSelAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tvSelAll.Parent" xml:space="preserve">
+    <value>tabSeries</value>
+  </data>
+  <data name="&gt;&gt;tvSelAll.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="scanSeriesList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="headSeries.Text" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="headSeries.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="headSeason.Text" xml:space="preserve">
+    <value>Season</value>
+  </data>
+  <data name="headSeason.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="headEpisode.Text" xml:space="preserve">
+    <value>Episode</value>
+  </data>
+  <data name="headEpisode.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="headTitle.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="headTitle.Width" type="System.Int32, mscorlib">
+    <value>220</value>
+  </data>
+  <data name="headFilename.Text" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="headFilename.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="headNewname.Text" xml:space="preserve">
+    <value>New Filename</value>
+  </data>
+  <data name="headNewname.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <metadata name="contextRename.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>358, 17</value>
+  </metadata>
+  <data name="contextOptionRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="contextOptionRename.Text" xml:space="preserve">
+    <value>rename episode(s)</value>
+  </data>
+  <data name="contextRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 26</value>
+  </data>
+  <data name="&gt;&gt;contextRename.Name" xml:space="preserve">
+    <value>contextRename</value>
+  </data>
+  <data name="&gt;&gt;contextRename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scanSeriesList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 95</value>
+  </data>
+  <data name="scanSeriesList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 271</value>
+  </data>
+  <data name="scanSeriesList.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;scanSeriesList.Name" xml:space="preserve">
+    <value>scanSeriesList</value>
+  </data>
+  <data name="&gt;&gt;scanSeriesList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scanSeriesList.Parent" xml:space="preserve">
+    <value>tabSeries</value>
+  </data>
+  <data name="&gt;&gt;scanSeriesList.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupSeries.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnSeriesBrowse.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSeriesBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 30</value>
+  </data>
+  <data name="btnSeriesBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 23</value>
+  </data>
+  <data name="btnSeriesBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnSeriesBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesBrowse.Name" xml:space="preserve">
+    <value>btnSeriesBrowse</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesBrowse.Parent" xml:space="preserve">
+    <value>groupSeries</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesBrowse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="scanSeriesProgressbar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="scanSeriesProgressbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 59</value>
+  </data>
+  <data name="scanSeriesProgressbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 11</value>
+  </data>
+  <data name="scanSeriesProgressbar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;scanSeriesProgressbar.Name" xml:space="preserve">
+    <value>scanSeriesProgressbar</value>
+  </data>
+  <data name="&gt;&gt;scanSeriesProgressbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scanSeriesProgressbar.Parent" xml:space="preserve">
+    <value>groupSeries</value>
+  </data>
+  <data name="&gt;&gt;scanSeriesProgressbar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSeriesScan.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSeriesScan.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSeriesScan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 30</value>
+  </data>
+  <data name="btnSeriesScan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnSeriesScan.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnSeriesScan.Text" xml:space="preserve">
+    <value>Start scan</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesScan.Name" xml:space="preserve">
+    <value>btnSeriesScan</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesScan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesScan.Parent" xml:space="preserve">
+    <value>groupSeries</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesScan.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Scan movies in folder:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupSeries</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="seriesScanPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="seriesScanPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 32</value>
+  </data>
+  <data name="seriesScanPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>561, 21</value>
+  </data>
+  <data name="seriesScanPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;seriesScanPath.Name" xml:space="preserve">
+    <value>seriesScanPath</value>
+  </data>
+  <data name="&gt;&gt;seriesScanPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;seriesScanPath.Parent" xml:space="preserve">
+    <value>groupSeries</value>
+  </data>
+  <data name="&gt;&gt;seriesScanPath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnSeriesScanStop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSeriesScanStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 30</value>
+  </data>
+  <data name="btnSeriesScanStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnSeriesScanStop.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnSeriesScanStop.Text" xml:space="preserve">
+    <value>Stop scan</value>
+  </data>
+  <data name="btnSeriesScanStop.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesScanStop.Name" xml:space="preserve">
+    <value>btnSeriesScanStop</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesScanStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesScanStop.Parent" xml:space="preserve">
+    <value>groupSeries</value>
+  </data>
+  <data name="&gt;&gt;btnSeriesScanStop.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupSeries.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="groupSeries.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 82</value>
+  </data>
+  <data name="groupSeries.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupSeries.Text" xml:space="preserve">
+    <value>TV Series scan mode</value>
+  </data>
+  <data name="&gt;&gt;groupSeries.Name" xml:space="preserve">
+    <value>groupSeries</value>
+  </data>
+  <data name="&gt;&gt;groupSeries.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupSeries.Parent" xml:space="preserve">
+    <value>tabSeries</value>
+  </data>
+  <data name="&gt;&gt;groupSeries.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabSeries.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabSeries.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabSeries.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 403</value>
+  </data>
+  <data name="tabSeries.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabSeries.Text" xml:space="preserve">
+    <value>TV Series</value>
+  </data>
+  <data name="&gt;&gt;tabSeries.Name" xml:space="preserve">
+    <value>tabSeries</value>
+  </data>
+  <data name="&gt;&gt;tabSeries.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSeries.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabSeries.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="movieRename.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="movieRename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 372</value>
+  </data>
+  <data name="movieRename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 23</value>
+  </data>
+  <data name="movieRename.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="movieRename.Text" xml:space="preserve">
+    <value>rename selected movies</value>
+  </data>
+  <data name="&gt;&gt;movieRename.Name" xml:space="preserve">
+    <value>movieRename</value>
+  </data>
+  <data name="&gt;&gt;movieRename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;movieRename.Parent" xml:space="preserve">
+    <value>tabMovies</value>
+  </data>
+  <data name="&gt;&gt;movieRename.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="movieSelNone.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="movieSelNone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 372</value>
+  </data>
+  <data name="movieSelNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="movieSelNone.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="movieSelNone.Text" xml:space="preserve">
+    <value>select none</value>
+  </data>
+  <data name="&gt;&gt;movieSelNone.Name" xml:space="preserve">
+    <value>movieSelNone</value>
+  </data>
+  <data name="&gt;&gt;movieSelNone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;movieSelNone.Parent" xml:space="preserve">
+    <value>tabMovies</value>
+  </data>
+  <data name="&gt;&gt;movieSelNone.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="movieSelAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="movieSelAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 372</value>
+  </data>
+  <data name="movieSelAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="movieSelAll.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="movieSelAll.Text" xml:space="preserve">
+    <value>select all</value>
+  </data>
+  <data name="&gt;&gt;movieSelAll.Name" xml:space="preserve">
+    <value>movieSelAll</value>
+  </data>
+  <data name="&gt;&gt;movieSelAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;movieSelAll.Parent" xml:space="preserve">
+    <value>tabMovies</value>
+  </data>
+  <data name="&gt;&gt;movieSelAll.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="scanMovieList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="headMovie.Text" xml:space="preserve">
+    <value>Movie</value>
+  </data>
+  <data name="headMovie.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="headYear.Text" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="headYear.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="headMoviefile.Text" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="headMoviefile.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="headNewfile.Text" xml:space="preserve">
+    <value>New Filename</value>
+  </data>
+  <data name="headNewfile.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="scanMovieList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 96</value>
+  </data>
+  <data name="scanMovieList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 266</value>
+  </data>
+  <data name="scanMovieList.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;scanMovieList.Name" xml:space="preserve">
+    <value>scanMovieList</value>
+  </data>
+  <data name="&gt;&gt;scanMovieList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scanMovieList.Parent" xml:space="preserve">
+    <value>tabMovies</value>
+  </data>
+  <data name="&gt;&gt;scanMovieList.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupMovies.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnMoviesBrowse.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnMoviesBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 30</value>
+  </data>
+  <data name="btnMoviesBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 23</value>
+  </data>
+  <data name="btnMoviesBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnMoviesBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnMoviesBrowse.Name" xml:space="preserve">
+    <value>btnMoviesBrowse</value>
+  </data>
+  <data name="&gt;&gt;btnMoviesBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMoviesBrowse.Parent" xml:space="preserve">
+    <value>groupMovies</value>
+  </data>
+  <data name="&gt;&gt;btnMoviesBrowse.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="scanMovieProgressbar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="scanMovieProgressbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 59</value>
+  </data>
+  <data name="scanMovieProgressbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 11</value>
+  </data>
+  <data name="scanMovieProgressbar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;scanMovieProgressbar.Name" xml:space="preserve">
+    <value>scanMovieProgressbar</value>
+  </data>
+  <data name="&gt;&gt;scanMovieProgressbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scanMovieProgressbar.Parent" xml:space="preserve">
+    <value>groupMovies</value>
+  </data>
+  <data name="&gt;&gt;scanMovieProgressbar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnMovieScan.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnMovieScan.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnMovieScan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 30</value>
+  </data>
+  <data name="btnMovieScan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnMovieScan.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnMovieScan.Text" xml:space="preserve">
+    <value>Start scan</value>
+  </data>
+  <data name="&gt;&gt;btnMovieScan.Name" xml:space="preserve">
+    <value>btnMovieScan</value>
+  </data>
+  <data name="&gt;&gt;btnMovieScan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMovieScan.Parent" xml:space="preserve">
+    <value>groupMovies</value>
+  </data>
+  <data name="&gt;&gt;btnMovieScan.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="moviePathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="moviePathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="moviePathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="moviePathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="moviePathLabel.Text" xml:space="preserve">
+    <value>Scan movies in folder:</value>
+  </data>
+  <data name="&gt;&gt;moviePathLabel.Name" xml:space="preserve">
+    <value>moviePathLabel</value>
+  </data>
+  <data name="&gt;&gt;moviePathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;moviePathLabel.Parent" xml:space="preserve">
+    <value>groupMovies</value>
+  </data>
+  <data name="&gt;&gt;moviePathLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="movieScanPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="movieScanPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 32</value>
+  </data>
+  <data name="movieScanPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>561, 21</value>
+  </data>
+  <data name="movieScanPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;movieScanPath.Name" xml:space="preserve">
+    <value>movieScanPath</value>
+  </data>
+  <data name="&gt;&gt;movieScanPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;movieScanPath.Parent" xml:space="preserve">
+    <value>groupMovies</value>
+  </data>
+  <data name="&gt;&gt;movieScanPath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnMovieScanStop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnMovieScanStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 30</value>
+  </data>
+  <data name="btnMovieScanStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnMovieScanStop.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnMovieScanStop.Text" xml:space="preserve">
+    <value>Stop scan</value>
+  </data>
+  <data name="&gt;&gt;btnMovieScanStop.Name" xml:space="preserve">
+    <value>btnMovieScanStop</value>
+  </data>
+  <data name="&gt;&gt;btnMovieScanStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMovieScanStop.Parent" xml:space="preserve">
+    <value>groupMovies</value>
+  </data>
+  <data name="&gt;&gt;btnMovieScanStop.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupMovies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="groupMovies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 82</value>
+  </data>
+  <data name="groupMovies.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupMovies.Text" xml:space="preserve">
+    <value>Movie scan mode</value>
+  </data>
+  <data name="&gt;&gt;groupMovies.Name" xml:space="preserve">
+    <value>groupMovies</value>
+  </data>
+  <data name="&gt;&gt;groupMovies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupMovies.Parent" xml:space="preserve">
+    <value>tabMovies</value>
+  </data>
+  <data name="&gt;&gt;groupMovies.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabMovies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabMovies.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabMovies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 403</value>
+  </data>
+  <data name="tabMovies.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabMovies.Text" xml:space="preserve">
+    <value>Movies</value>
+  </data>
+  <data name="&gt;&gt;tabMovies.Name" xml:space="preserve">
+    <value>tabMovies</value>
+  </data>
+  <data name="&gt;&gt;tabMovies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabMovies.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabMovies.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabOptions.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optionGroupOthers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optionGroupOthers.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="optionDropTarget.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optionDropTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 42</value>
+  </data>
+  <data name="optionDropTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 17</value>
+  </data>
+  <data name="optionDropTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="optionDropTarget.Text" xml:space="preserve">
+    <value>Display dropTarget on Desktop</value>
+  </data>
+  <data name="&gt;&gt;optionDropTarget.Name" xml:space="preserve">
+    <value>optionDropTarget</value>
+  </data>
+  <data name="&gt;&gt;optionDropTarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionDropTarget.Parent" xml:space="preserve">
+    <value>optionGroupOthers</value>
+  </data>
+  <data name="&gt;&gt;optionDropTarget.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optionSysTray.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optionSysTray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 93</value>
+  </data>
+  <data name="optionSysTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 17</value>
+  </data>
+  <data name="optionSysTray.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="optionSysTray.Text" xml:space="preserve">
+    <value>Display icon in system tray (next to clock)</value>
+  </data>
+  <data name="&gt;&gt;optionSysTray.Name" xml:space="preserve">
+    <value>optionSysTray</value>
+  </data>
+  <data name="&gt;&gt;optionSysTray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionSysTray.Parent" xml:space="preserve">
+    <value>optionGroupOthers</value>
+  </data>
+  <data name="&gt;&gt;optionSysTray.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optionStartMinimized.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optionStartMinimized.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 19</value>
+  </data>
+  <data name="optionStartMinimized.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 17</value>
+  </data>
+  <data name="optionStartMinimized.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="optionStartMinimized.Text" xml:space="preserve">
+    <value>Start application minimized</value>
+  </data>
+  <data name="&gt;&gt;optionStartMinimized.Name" xml:space="preserve">
+    <value>optionStartMinimized</value>
+  </data>
+  <data name="&gt;&gt;optionStartMinimized.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionStartMinimized.Parent" xml:space="preserve">
+    <value>optionGroupOthers</value>
+  </data>
+  <data name="&gt;&gt;optionStartMinimized.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="optionGroupOthers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="optionGroupOthers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 202</value>
+  </data>
+  <data name="optionGroupOthers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>696, 129</value>
+  </data>
+  <data name="optionGroupOthers.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="optionGroupOthers.Text" xml:space="preserve">
+    <value>General Options</value>
+  </data>
+  <data name="&gt;&gt;optionGroupOthers.Name" xml:space="preserve">
+    <value>optionGroupOthers</value>
+  </data>
+  <data name="&gt;&gt;optionGroupOthers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionGroupOthers.Parent" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="&gt;&gt;optionGroupOthers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optionGroupMovies.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optionGroupMovies.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="optionMovieParser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 44</value>
+  </data>
+  <data name="optionMovieParser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 21</value>
+  </data>
+  <data name="optionMovieParser.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;optionMovieParser.Name" xml:space="preserve">
+    <value>optionMovieParser</value>
+  </data>
+  <data name="&gt;&gt;optionMovieParser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionMovieParser.Parent" xml:space="preserve">
+    <value>optionGroupMovies</value>
+  </data>
+  <data name="&gt;&gt;optionMovieParser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelMovieSource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMovieSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="labelMovieSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="labelMovieSource.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="labelMovieSource.Text" xml:space="preserve">
+    <value>Online Datasource:</value>
+  </data>
+  <data name="labelMovieSource.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMovieSource.Name" xml:space="preserve">
+    <value>labelMovieSource</value>
+  </data>
+  <data name="&gt;&gt;labelMovieSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMovieSource.Parent" xml:space="preserve">
+    <value>optionGroupMovies</value>
+  </data>
+  <data name="&gt;&gt;labelMovieSource.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnMovePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 72</value>
+  </data>
+  <data name="btnMovePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 23</value>
+  </data>
+  <data name="btnMovePath.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btnMovePath.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnMovePath.Name" xml:space="preserve">
+    <value>btnMovePath</value>
+  </data>
+  <data name="&gt;&gt;btnMovePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMovePath.Parent" xml:space="preserve">
+    <value>optionGroupMovies</value>
+  </data>
+  <data name="&gt;&gt;btnMovePath.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="option_movieTargetLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 74</value>
+  </data>
+  <data name="option_movieTargetLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 20</value>
+  </data>
+  <data name="option_movieTargetLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;option_movieTargetLocation.Name" xml:space="preserve">
+    <value>option_movieTargetLocation</value>
+  </data>
+  <data name="&gt;&gt;option_movieTargetLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;option_movieTargetLocation.Parent" xml:space="preserve">
+    <value>optionGroupMovies</value>
+  </data>
+  <data name="&gt;&gt;option_movieTargetLocation.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="option_moveMovies.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="option_moveMovies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 76</value>
+  </data>
+  <data name="option_moveMovies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 17</value>
+  </data>
+  <data name="option_moveMovies.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="option_moveMovies.Text" xml:space="preserve">
+    <value>Move Movies to the folder:</value>
+  </data>
+  <data name="&gt;&gt;option_moveMovies.Name" xml:space="preserve">
+    <value>option_moveMovies</value>
+  </data>
+  <data name="&gt;&gt;option_moveMovies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;option_moveMovies.Parent" xml:space="preserve">
+    <value>optionGroupMovies</value>
+  </data>
+  <data name="&gt;&gt;option_moveMovies.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="option_movieFormat.AutoCompleteCustomSource" xml:space="preserve">
+    <value>&lt;moviename&gt; (&lt;year&gt;&lt;disk:,CD&gt;&lt;disk&gt;&lt;lang:,&gt;&lt;lang&gt;)</value>
+  </data>
+  <metadata name="contextProposals.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>107, 17</value>
+  </metadata>
+  <data name="contextProposals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="&gt;&gt;contextProposals.Name" xml:space="preserve">
+    <value>contextProposals</value>
+  </data>
+  <data name="&gt;&gt;contextProposals.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="option_movieFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 18</value>
+  </data>
+  <data name="option_movieFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 20</value>
+  </data>
+  <data name="option_movieFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="option_movieFormat.Text" xml:space="preserve">
+    <value>&lt;moviename&gt; (&lt;year&gt;&lt;disk:,CD&gt;&lt;disk&gt;&lt;lang:,&gt;&lt;lang&gt;)</value>
+  </data>
+  <data name="&gt;&gt;option_movieFormat.Name" xml:space="preserve">
+    <value>option_movieFormat</value>
+  </data>
+  <data name="&gt;&gt;option_movieFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;option_movieFormat.Parent" xml:space="preserve">
+    <value>optionGroupMovies</value>
+  </data>
+  <data name="&gt;&gt;option_movieFormat.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelMovieOutpu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="labelMovieOutpu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="labelMovieOutpu.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelMovieOutpu.Text" xml:space="preserve">
+    <value>Output Format:</value>
+  </data>
+  <data name="labelMovieOutpu.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMovieOutpu.Name" xml:space="preserve">
+    <value>labelMovieOutpu</value>
+  </data>
+  <data name="&gt;&gt;labelMovieOutpu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMovieOutpu.Parent" xml:space="preserve">
+    <value>optionGroupMovies</value>
+  </data>
+  <data name="&gt;&gt;labelMovieOutpu.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="optionGroupMovies.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="optionGroupMovies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 88</value>
+  </data>
+  <data name="optionGroupMovies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>696, 114</value>
+  </data>
+  <data name="optionGroupMovies.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="optionGroupMovies.Text" xml:space="preserve">
+    <value>Movie Options</value>
+  </data>
+  <data name="&gt;&gt;optionGroupMovies.Name" xml:space="preserve">
+    <value>optionGroupMovies</value>
+  </data>
+  <data name="&gt;&gt;optionGroupMovies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionGroupMovies.Parent" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="&gt;&gt;optionGroupMovies.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optionGroupSeries.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optionSeriesParser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 43</value>
+  </data>
+  <data name="optionSeriesParser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 21</value>
+  </data>
+  <data name="optionSeriesParser.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;optionSeriesParser.Name" xml:space="preserve">
+    <value>optionSeriesParser</value>
+  </data>
+  <data name="&gt;&gt;optionSeriesParser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionSeriesParser.Parent" xml:space="preserve">
+    <value>optionGroupSeries</value>
+  </data>
+  <data name="&gt;&gt;optionSeriesParser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelTVSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 41</value>
+  </data>
+  <data name="labelTVSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="labelTVSource.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelTVSource.Text" xml:space="preserve">
+    <value>Online Datasource:</value>
+  </data>
+  <data name="labelTVSource.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelTVSource.Name" xml:space="preserve">
+    <value>labelTVSource</value>
+  </data>
+  <data name="&gt;&gt;labelTVSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTVSource.Parent" xml:space="preserve">
+    <value>optionGroupSeries</value>
+  </data>
+  <data name="&gt;&gt;labelTVSource.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="option_seriesFormat.AutoCompleteCustomSource" xml:space="preserve">
+    <value>&lt;series&gt; - &lt;season&gt;x&lt;episode2&gt;&lt;title: - &gt;&lt;title&gt;</value>
+  </data>
+  <data name="option_seriesFormat.AutoCompleteCustomSource1" xml:space="preserve">
+    <value>&lt;series&gt; - s&lt;season2&gt;e&lt;episod2&gt;&lt;title: - &gt;&lt;title&gt;</value>
+  </data>
+  <data name="option_seriesFormat.AutoCompleteCustomSource2" xml:space="preserve">
+    <value>&lt;series&gt; &lt;season&gt;x&lt;episode2&gt;&lt;title: - &gt;&lt;title&gt;</value>
+  </data>
+  <data name="option_seriesFormat.AutoCompleteCustomSource3" xml:space="preserve">
+    <value>&lt;series&gt; s&lt;season2&gt;e&lt;episode2&gt;&lt;title: - &gt;&lt;title&gt;</value>
+  </data>
+  <data name="option_seriesFormat.AutoCompleteCustomSource4" xml:space="preserve">
+    <value>&lt;season&gt;x&lt;episode2&gt;&lt;title: - &gt;&lt;title&gt;</value>
+  </data>
+  <data name="option_seriesFormat.AutoCompleteCustomSource5" xml:space="preserve">
+    <value>s&lt;season2&gt;e&lt;episode2&gt;&lt;title: - &gt;&lt;title&gt;</value>
+  </data>
+  <data name="option_seriesFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 16</value>
+  </data>
+  <data name="option_seriesFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 20</value>
+  </data>
+  <data name="option_seriesFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="option_seriesFormat.Text" xml:space="preserve">
+    <value>&lt;series&gt; - &lt;season&gt;x&lt;episode2&gt;&lt;title: - &gt;&lt;title&gt;</value>
+  </data>
+  <data name="&gt;&gt;option_seriesFormat.Name" xml:space="preserve">
+    <value>option_seriesFormat</value>
+  </data>
+  <data name="&gt;&gt;option_seriesFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;option_seriesFormat.Parent" xml:space="preserve">
+    <value>optionGroupSeries</value>
+  </data>
+  <data name="&gt;&gt;option_seriesFormat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelTVOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="labelTVOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="labelTVOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelTVOutput.Text" xml:space="preserve">
+    <value>Output Format:</value>
+  </data>
+  <data name="labelTVOutput.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelTVOutput.Name" xml:space="preserve">
+    <value>labelTVOutput</value>
+  </data>
+  <data name="&gt;&gt;labelTVOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTVOutput.Parent" xml:space="preserve">
+    <value>optionGroupSeries</value>
+  </data>
+  <data name="&gt;&gt;labelTVOutput.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="optionGroupSeries.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="optionGroupSeries.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="optionGroupSeries.Size" type="System.Drawing.Size, System.Drawing">
+    <value>696, 83</value>
+  </data>
+  <data name="optionGroupSeries.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="optionGroupSeries.Text" xml:space="preserve">
+    <value>TV Series Options</value>
+  </data>
+  <data name="&gt;&gt;optionGroupSeries.Name" xml:space="preserve">
+    <value>optionGroupSeries</value>
+  </data>
+  <data name="&gt;&gt;optionGroupSeries.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionGroupSeries.Parent" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="&gt;&gt;optionGroupSeries.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="tabOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 403</value>
+  </data>
+  <data name="tabOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Name" xml:space="preserve">
+    <value>tabOptions</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabOptions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 429</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabWatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabWatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="tabWatch.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabWatch.Name" xml:space="preserve">
+    <value>tabWatch</value>
+  </data>
+  <data name="&gt;&gt;tabWatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_watchType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label_watchType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label_watchType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_watchType.Name" xml:space="preserve">
+    <value>label_watchType</value>
+  </data>
+  <data name="&gt;&gt;label_watchType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label_watchPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label_watchPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="label_watchPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_watchPath.Name" xml:space="preserve">
+    <value>label_watchPath</value>
+  </data>
+  <data name="&gt;&gt;label_watchPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="addWatchType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="addWatchType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="addWatchType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;addWatchType.Name" xml:space="preserve">
+    <value>addWatchType</value>
+  </data>
+  <data name="&gt;&gt;addWatchType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="addWatchFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="addWatchFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="addWatchFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;addWatchFolder.Name" xml:space="preserve">
+    <value>addWatchFolder</value>
+  </data>
+  <data name="&gt;&gt;addWatchFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="addWatchPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="addWatchPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="addWatchPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;addWatchPath.Name" xml:space="preserve">
+    <value>addWatchPath</value>
+  </data>
+  <data name="&gt;&gt;addWatchPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="watchedFolders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="watchedFolders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 95</value>
+  </data>
+  <data name="watchedFolders.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;watchedFolders.Name" xml:space="preserve">
+    <value>watchedFolders</value>
+  </data>
+  <data name="&gt;&gt;watchedFolders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="runWatcherToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="stopWatcherToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="deleteSelectedWatcherToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="sysTrayMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>494, 17</value>
+  </metadata>
+  <data name="sysTrayOpen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="sysTrayOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="sysTrayOpen.Text" xml:space="preserve">
+    <value>Show Application</value>
+  </data>
+  <data name="displayDropTargetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="displayDropTargetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Display DropTarget</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 6</value>
+  </data>
+  <data name="sysTrayExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 22</value>
+  </data>
+  <data name="sysTrayExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="sysTrayMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 76</value>
+  </data>
+  <data name="&gt;&gt;sysTrayMenu.Name" xml:space="preserve">
+    <value>sysTrayMenu</value>
+  </data>
+  <data name="&gt;&gt;sysTrayMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAppAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnAppAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 0</value>
+  </data>
+  <data name="btnAppAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="btnAppAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnAppAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;btnAppAbout.Name" xml:space="preserve">
+    <value>btnAppAbout</value>
+  </data>
+  <data name="&gt;&gt;btnAppAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAppAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAppAbout.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 0</value>
+  </data>
+  <data name="btnHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="btnHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="&gt;&gt;btnHelp.Name" xml:space="preserve">
+    <value>btnHelp</value>
+  </data>
+  <data name="&gt;&gt;btnHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnHelp.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="notifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>252, 17</value>
+  </metadata>
+  <data name="notifyIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYW
+        FgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAA
+        MwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm
+        /wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/
+        zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNm
+        ZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM
+        /wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYz
+        mQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbM
+        MwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkz
+        MwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnM
+        AACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwA
+        mQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZ
+        MwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/
+        zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9m
+        zADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/
+        ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKy
+        sgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAACNLUlJMAAAAAAAAABEREABLmppSSxAKCgAAAABDEUMSUfZ0TFJMRAoAAAAAFUNDeHh5
+        mXl6elIPAAAAABQVQ1aXV3nDenp6UlIAAAAUFBVVVbq0ecN6enpSUgAAExQUd7rb25l6w3p6elJSABIT
+        FNvb29uZenrDenp0dHQSEm0SEhISEhJKehqZmhp06hISeHh4eHh4Q0t5GvYaUm3qElaXVpe6s0NDSnSZ
+        UlJtbepVVbrb27oVQ0MAAAAAbW1td7rb25h6FBVDAAAAAG1tbbrb29uZmhQUFQAAAABtbW0SEhISEhIT
+        ExQAAAAA621tAAAAAAAAEhMTAAAAAPB/AAAQDwAAAA8AAAAPAAAABwAAAAMAAAABAAAAAAAAAAAAAAAA
+        AAAAAAAAAA8AAAAPAAAADwAAAA8AAB+PAAA=
+</value>
+  </data>
+  <data name="notifyIcon.Text" xml:space="preserve">
+    <value>MediaRenamer</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>714, 429</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>730, 465</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MediaRenamer</value>
+  </data>
+  <data name="&gt;&gt;headSeries.Name" xml:space="preserve">
+    <value>headSeries</value>
+  </data>
+  <data name="&gt;&gt;headSeries.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headSeason.Name" xml:space="preserve">
+    <value>headSeason</value>
+  </data>
+  <data name="&gt;&gt;headSeason.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headEpisode.Name" xml:space="preserve">
+    <value>headEpisode</value>
+  </data>
+  <data name="&gt;&gt;headEpisode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headTitle.Name" xml:space="preserve">
+    <value>headTitle</value>
+  </data>
+  <data name="&gt;&gt;headTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headFilename.Name" xml:space="preserve">
+    <value>headFilename</value>
+  </data>
+  <data name="&gt;&gt;headFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headNewname.Name" xml:space="preserve">
+    <value>headNewname</value>
+  </data>
+  <data name="&gt;&gt;headNewname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextOptionRename.Name" xml:space="preserve">
+    <value>contextOptionRename</value>
+  </data>
+  <data name="&gt;&gt;contextOptionRename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headMovie.Name" xml:space="preserve">
+    <value>headMovie</value>
+  </data>
+  <data name="&gt;&gt;headMovie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headYear.Name" xml:space="preserve">
+    <value>headYear</value>
+  </data>
+  <data name="&gt;&gt;headYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headMoviefile.Name" xml:space="preserve">
+    <value>headMoviefile</value>
+  </data>
+  <data name="&gt;&gt;headMoviefile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headNewfile.Name" xml:space="preserve">
+    <value>headNewfile</value>
+  </data>
+  <data name="&gt;&gt;headNewfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;runWatcherToolStripMenuItem.Name" xml:space="preserve">
+    <value>runWatcherToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;runWatcherToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stopWatcherToolStripMenuItem.Name" xml:space="preserve">
+    <value>stopWatcherToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;stopWatcherToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteSelectedWatcherToolStripMenuItem.Name" xml:space="preserve">
+    <value>deleteSelectedWatcherToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;deleteSelectedWatcherToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sysTrayOpen.Name" xml:space="preserve">
+    <value>sysTrayOpen</value>
+  </data>
+  <data name="&gt;&gt;sysTrayOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;displayDropTargetToolStripMenuItem.Name" xml:space="preserve">
+    <value>displayDropTargetToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;displayDropTargetToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sysTrayExit.Name" xml:space="preserve">
+    <value>sysTrayExit</value>
+  </data>
+  <data name="&gt;&gt;sysTrayExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon.Name" xml:space="preserve">
+    <value>notifyIcon</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>mainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
